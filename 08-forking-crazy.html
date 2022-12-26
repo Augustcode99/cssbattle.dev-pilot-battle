@@ -1,0 +1,102 @@
+<div a>
+  <div a1>
+    <div a11>
+      <div class="top">
+        <div class="top1"></div>
+        <div class="top1"></div>
+        <div class="top1"></div>
+        <div class="top1"></div>
+        <div class="top1"></div>
+        <div class="top1"></div>
+        <div class="top1"></div>
+      </div>
+      <div class="bottom">
+        <div class="bottom1"></div>
+        <div class="bottom1"></div>
+        <div class="bottom1"></div>
+        <div class="bottom1"></div>
+        <div class="bottom1"></div>
+        <div class="bottom1"></div>
+        <div class="bottom1"></div>
+      </div>
+    </div>
+    <div a12></div>
+  </div>
+  <div a2></div>
+</div>
+
+<style>
+  body {
+    margin: 0;
+    background: #6592cf;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  div[a] {
+    width: 140px;
+    height: 250px;
+    /*     background: #6592CF; */
+    display: grid;
+  }
+  div[a1] {
+    /*   background: #6592CF; */
+    height: 200px;
+    display: grid;
+  }
+  div[a2] {
+    height: 50px;
+    width: 20px;
+    justify-self: center;
+    background: #060f55;
+  }
+  div[a11] {
+    /*   background: orange; */
+    height: 110px;
+    display: grid;
+  }
+  .top {
+    background: #6592cf;
+    width: 140px;
+    height: 55px;
+
+    display: flex;
+  }
+  .bottom {
+    background: #060f55;
+    height: 55px;
+
+    width: 140px;
+    display: flex;
+  }
+
+  .top1 {
+    height: 55px;
+    width: 20px;
+
+    border-radius: 50px 50px 0px 0px;
+  }
+  .top1:nth-child(1n) {
+    background: #060f55;
+  }
+  .top1:nth-child(2n) {
+    background: #6592cf;
+  }
+  .bottom1 {
+    height: 55px;
+    width: 20px;
+  }
+  .bottom1:nth-child(1n) {
+    background: #060f55;
+  }
+  .bottom1:nth-child(2n) {
+    border-radius: 0px 0px 50px 50px;
+    background: #6592cf;
+  }
+
+  div[a12] {
+    height: 90px;
+    border-radius: 0px 0px 5rem 5rem;
+    background: #060f55;
+  }
+</style>
