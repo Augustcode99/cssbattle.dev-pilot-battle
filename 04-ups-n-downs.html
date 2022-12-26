@@ -1,0 +1,55 @@
+<div class="a">
+  <div class="1 purp"></div>
+  <div class="2"></div>
+  <div class="3 purp"></div>
+  <div class="4"></div>
+  <div class="5 purp"></div>
+  <div class="6"></div>
+</div>
+<style>
+  * {
+    margin: 0;
+    background: #62306d;
+  }
+  body {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+  div:nth-child(4) {
+    width: 100px;
+    height: 100px;
+    background: #f7ec7d;
+    border-bottom-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+  }
+  div:nth-child(6) {
+    width: 100px;
+    height: 100px;
+    background: #f7ec7d;
+    border-bottom-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+  }
+  div:nth-child(2) {
+    width: 100px;
+    height: 100px;
+    background: #f7ec7d;
+    border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+  }
+  .purp {
+    background: #62306d;
+  }
+  .a {
+    width: 300px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .1 {
+    background-color: white;
+  }
+  .2 {
+    background: red;
+  }
+</style>
