@@ -1,0 +1,38 @@
+<div a>
+  <div b></div>
+  <div c></div>
+  <div d></div>
+  <div e></div>
+</div>
+<style>
+  body {
+    margin: 0;
+    background: #e3516e;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+  div {
+    width: 100px;
+    height: 100px;
+  }
+  div[a] {
+    width: 200px;
+    height: 200px;
+    background: #51b5a9;
+    display: flex;
+    flex-flow: row wrap;
+    border-radius: 50rem;
+  }
+  div[c] {
+    background: #fade8b;
+    border-top-right-radius: 50rem;
+  }
+  div[d] {
+    background: #f7f3d7;
+    border-bottom-left-radius: 50rem;
+  }
+  div[e] {
+    background: #e3516e;
+  }
+</style>
