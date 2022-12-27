@@ -1,4 +1,4 @@
-Here are the images of my solutions to the pilot battle challenges.
+Here are the images from my solutions to challenges at cssbattle.dev
 
 ![](images/001.png)
 ![](images/002.png)
