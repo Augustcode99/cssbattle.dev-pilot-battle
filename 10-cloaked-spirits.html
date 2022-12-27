@@ -1,0 +1,83 @@
+<main>
+  <div p></div>
+  <div ci></div>
+  <div p></div>
+  <div ci2></div>
+  <div y></div>
+  <div ci2></div>
+  <div y></div>
+  <div y c></div>
+  <div y></div>
+  <div cio oa></div>
+  <div cio ob></div>
+  <div cio oc></div>
+</main>
+
+<style>
+  body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: end;
+    background: #62306d;
+  }
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*     justify-items:center; */
+    align-items: end;
+    height: 300px;
+  }
+  div[y] {
+    width: 100px;
+    height: 100px;
+    background: #f7ec7d;
+  }
+  div[p] {
+    width: 100px;
+    height: 100px;
+    background: #62306d;
+  }
+  div[c] {
+    height: 100px;
+  }
+  div[ci] {
+    height: 100px;
+
+    border-radius: 50%;
+    background: #e38f66;
+    position: relative;
+    top: 50px;
+  }
+  div[ci2] {
+    height: 100px;
+
+    border-radius: 50%;
+    background: #aa445f;
+    position: relative;
+    top: 50px;
+  }
+  div[cio] {
+    width: 60px;
+    height: 60px;
+
+    border-radius: 50%;
+    background: #e38f66;
+    position: absolute;
+    top: 50px;
+  }
+  div[oa] {
+    top: 170px;
+    left: 70px;
+  }
+  div[ob] {
+    background: #aa445f;
+    top: 70px;
+    left: 170px;
+  }
+  div[oc] {
+    top: 170px;
+    left: 270px;
+  }
+</style>
