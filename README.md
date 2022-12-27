@@ -1,4 +1,4 @@
-Here are the images from my solutions to challenges at cssbattle.dev
+Below are images to the challenges I've managed to recreate with 100% accuracy.
 
 ![](images/001.png)
 ![](images/002.png)
