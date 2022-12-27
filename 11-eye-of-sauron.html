@@ -1,0 +1,65 @@
+<div big>
+  <div mc yb top></div>
+  <div blocktop></div>
+  <div mc yb bottom></div>
+  <div blockbottom></div>
+  <div mc bb></div>
+</div>
+<style>
+  body {
+    background: #191210;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    box-sizing: border-box;
+  }
+  div[big] {
+    width: 300px;
+    height: 100px;
+    background: #191210;
+    display: flex;
+    place-items: center;
+  }
+  div[mc] {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  div[yb] {
+    width: 60px;
+    height: 60px;
+    border: 20px solid #eca03d;
+    background: #191210;
+    position: relative;
+  }
+  div[bb] {
+    border: 25px solid #191210;
+    background: #84271c;
+    position: relative;
+    left: -100px;
+    outline: 20px solid #eca03d;
+  }
+  div[top] {
+  }
+  div[bottom] {
+    position: relative;
+    left: 100px;
+  }
+  div[blocktop] {
+    position: absolute;
+    top: 100px;
+    width: 100px;
+    height: 50px;
+
+    background: #191210;
+  }
+  div[blockbottom] {
+    position: absolute;
+    left: 250px;
+    top: 150px;
+    width: 100px;
+    height: 50px;
+
+    background: #191210;
+  }
+</style>
