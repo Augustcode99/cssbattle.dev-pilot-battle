@@ -1,4 +1,4 @@
-Below are images to the challenges I've managed to recreate with 100% accuracy.
+Below are images to the challenges I've managed to recreate with 100% accuracy using html and css only.
 
 ![](images/001.png)
 ![](images/002.png)
